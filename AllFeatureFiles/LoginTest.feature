@@ -18,8 +18,8 @@ Scenario Outline: Login as a new sign-up user with valid data
 		
 @Low 
 Scenario: Login as a new sign-up user with invalid data 
-	When User entered the user name "admin123" 
-	And User entered the password "test123" 
+	When User entered the user name "admin1234" 
+	And User entered the password "test1234" 
 	And click on the sign-in button 
 	Then validate user unsuccessful logged-in by reading title
 	
